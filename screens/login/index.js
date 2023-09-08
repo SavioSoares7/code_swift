@@ -3,7 +3,6 @@ import { styles } from "./style";
 import { View, Text, TextInput, Image, TouchableOpacity } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { RadioButton } from "react-native-paper";
-import { useState } from "react";
 
 export default function Login() {
   const [checked, setChecked] = React.useState("first");
